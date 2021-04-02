@@ -1,4 +1,5 @@
-var socket = io("http://localhost:3000");
+// var socket = io("http://localhost:3000");
+var socket = io("https://khanh-chat-app.herokuapp.com");
 
 socket.on('server-send-user-tontai', function(){
     alert("user da ton tai")
