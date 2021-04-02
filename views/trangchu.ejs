@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket demo</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="xuly.js"></script>
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="formRegister">
+            <input type="text" id="username">
+            <input type="button" id="btnRegister" value="Register">
+        </div>
+        <div id="formMessage">
+            <div id="left">
+                
+                <div id="userOnline">
+                </div>
+            </div>
+            <div id="right">
+                <div id="sayHi">Hello <span id="currentUser"></span><input type="button" id="btnLogout" value="Logout"></div>
+                <div id="messages"></div>
+                <div id="thong-bao"></div>
+                <input type="text" id="messageContent">
+                <input type="button" id="btnSend" value="Send">
+            </div>
+            
+        </div>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,30 @@
+body{
+    background-color: #ebeef4;
+}
+
+#left{
+    width: 25%;
+    border: 1px solid green;
+    float: left;
+    min-height: 300px;
+    text-align: center;
+    padding: 5px;
+}
+
+#right{
+    width: 70%;
+    border: 1px solid pink;
+    float: right;
+    min-height: 300px;
+    padding: 5px;
+}
+
+#sayHi{
+    text-align: right;
+}
+
+#messages{
+    min-height: 200px;
+    border: 1px solid yellowgreen;
+    margin-bottom: 20px;
+}
